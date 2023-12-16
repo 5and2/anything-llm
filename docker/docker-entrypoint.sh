@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 { cd /app/server/ &&\
   npx prisma generate --schema=./prisma/schema.prisma &&\
   npx prisma migrate deploy --schema=./prisma/schema.prisma &&\
