@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Send a request to the specified URL
 response=$(curl --write-out '%{http_code}' --silent --output /dev/null http://localhost:3001/api/ping)
